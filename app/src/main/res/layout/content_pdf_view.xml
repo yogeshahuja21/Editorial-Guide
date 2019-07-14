@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nba.guide.PdfView"
+    tools:showIn="@layout/activity_pdf_view">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/version"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/backline"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/english"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:background="#012883"
+            android:text="English Version"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/hindi"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="#aaEDEDED"
+            android:textSize="15sp"
+            android:textColor="#868687"
+            android:text="Hindi Version"/>
+
+    </LinearLayout>
+
+
+
+    <WebView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/version"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent" />
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="visible"-->
+        <!--android:gravity="right"-->
+        <!--android:id="@+id/change_logout"-->
+        <!--&gt;-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/backs"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/password"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:id="@+id/imageView" />-->
+        <!--<TextView-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Change Password"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="15sp"-->
+            <!--android:gravity="left"-->
+            <!--android:id="@+id/change_pass"-->
+            <!--android:layout_above="@+id/logout"-->
+            <!--android:layout_alignLeft="@+id/logout"-->
+            <!--android:layout_alignStart="@+id/logout" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="173dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/backs"-->
+        <!--android:orientation="horizontal">-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/logout"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Logout"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="15sp"-->
+            <!--android:gravity="left"-->
+            <!--android:id="@+id/logout"-->
+            <!--android:layout_above="@+id/logout"-->
+            <!--android:layout_alignLeft="@+id/logout"-->
+            <!--android:layout_alignStart="@+id/logout" />-->
+
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

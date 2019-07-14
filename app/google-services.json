@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "902456662251",
+    "firebase_url": "https://nbaguide-d8d61.firebaseio.com",
+    "project_id": "nbaguide-d8d61",
+    "storage_bucket": "nbaguide-d8d61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902456662251:android:9360ac59db406a2b",
+        "android_client_info": {
+          "package_name": "com.nba.guideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902456662251-kv98dftbueoc0aq7mspdrikmcr5p9ber.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nba.guideapp",
+            "certificate_hash": "286791F8D557F03F8E682C3DCCF289BA5405D924"
+          }
+        },
+        {
+          "client_id": "902456662251-d0b8vedbk2p5nn7ptk8ldgugfqtatalf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzFe59XKdNNxnY9f5m2QqIWuP5zAq9FTs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902456662251-d0b8vedbk2p5nn7ptk8ldgugfqtatalf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

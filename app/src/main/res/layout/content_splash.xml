@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nba.guide.SplashActivity"
+    tools:showIn="@layout/activity_splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/splash"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nba_logo"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nbsa"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView3" />
+    </LinearLayout>
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#3b5585"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:drawableRight="@drawable/ic_copyright"
+            android:drawablePadding="5dp"
+            android:fontFamily="@string/fontFamily__roboto_regular"
+            android:textSize="16sp"
+            android:text="Copyright"
+            android:id="@+id/copy"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#CCCCCC"
+            android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+
+            android:fontFamily="@string/fontFamily__roboto_regular"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="News Broadcasters Association"
+            android:id="@+id/copy1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@string/fontFamily__roboto_regular"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:text="News Broadcasting Standards Authority"
+            android:layout_marginTop="5dp"
+            android:id="@+id/copy2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:animateLayoutChanges="true"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/linearLayout5"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="WE BELIEVE IN EXCELLENCE IN BROADCASTING"
+            android:fontFamily="@string/fontFamily__roboto_regular"
+            android:id="@+id/textView2"
+            android:textColor="#5f5d5d"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="40px" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#aaF2260F"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/circle"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#aaF2260F"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#373131"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:fontFamily="@string/fontFamily__roboto_regular"
+            android:text="WE BELIEVE IN SELF REGULATION"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="8dp"
+            android:textSize="35px" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
